@@ -2,5 +2,9 @@
 n = 4
 suma = 0
 for i in range(0,n):
-    suma += float(input(f"Ingresa el número {i+1}: "))
+    try:
+        suma += float(input(f"Ingresa el número {i+1}: "))
+    except ValueError:
+        print("No es un número válido")
+        break
 print(f"El promedio es: {suma/n}")
