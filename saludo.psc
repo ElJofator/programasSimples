@@ -1,6 +1,6 @@
 Algoritmo saludo
-	Definir nombre Como Caracter
-	Escribir "Ingrese su nombre:"
+	Definir nombre Como Cadena
+	Escribir 'Ingrese su nombre:'
 	Leer nombre
-	Escribir "Hola, ", nombre
+	Escribir 'Hola, ', nombre
 FinAlgoritmo
